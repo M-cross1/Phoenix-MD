@@ -1,8 +1,8 @@
 {
-  "name": "Phoenix-MD",
+  "name": "MCROSS-MD",
   "version": "1.0.0",
   "description": "Phoenix-MD Simple WhatsApp Bot",
-  "logo": "https://i.imgur.com/T78fhJk.jpeg",
+  "logo": "https://telegra.ph/file/9f6ac7eac92fd9220ca20.jpg",
   "keywords": ["whatsapp", "bot", "md", "multi-device", "Phoenix", "Phoenix-MD", "wabot", "termux-bot", "sc-bot"],
   "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
   "stack": "container",
@@ -14,44 +14,43 @@
     "HANDLERS": {
       "description": "Enter Prefix For Commands",
       "required": false,
-      "value": ","
+      "value": "⚡"
     },
     "SUDO": {
       "description": "Enter Numbers With Country Code Without + Separated With , To Add More Numbers",
       "required": false,
-      "value": "919074692450"
+      "value": "2349042566473"
     },
     "STICKER_DATA": {
       "description": "Enter Your Sticker PackName And Author Name",
       "required": false,
-      "value": "🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️"
-    },
+      "value": "KÌÑG M-ÇRØSS"
     "OWNER_NAME": {
       "description": "Enter Your Owner Name",
       "required": false,
-      "value": "Abhishek Suresh"
+      "value": "𝙆𝙄𝙉𝙂 𝙈-𝘾𝙍𝙊𝙎𝙎"
     },
     "OWNER_NUMBER": {
       "description": "Enter Your Owner Number",
       "required": false,
-      "value": "919074692450"
+      "value": "2349042566473"
     },
     "BOT_NAME": {
       "description": "Enter Your Bot Name",
       "required": false,
-      "value": "Phoenix-MD"
+      "value": "𝗠𝗖𝗥𝗢𝗦𝗦-𝗠𝗗"
     },
     "WORK_TYPE": {
       "description": "Enter Your Mode Type public For Public Otherwise Type private",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
     "HEROKU_APP_NAME": {
       "description": "Enter Your Heroku App Name Same As Above You Entered",
       "required": true
     },
     "HEROKU_API_KEY": {
-      "description": "Enter Your Heroku Account Api Key. Get It From https://dashboard.heroku.com/account",
+      "description": "Enter Your Heroku Account Api Key( f70feb67-eceb-4ea4-8f9a-ee1fe0cfec69 ). Get It From https://dashboard.heroku.com/account",
       "required": true
     },
     "AUTO_REACT": {
@@ -62,7 +61,7 @@
     "AUTO_STATUS_READ": {
       "description": "If You Want To View Status Automatically, Type true. Otherwise, Type false",
       "required": false,
-      "value": "false"
+      "value": "true"
     }
   },
   "buildpacks": [
